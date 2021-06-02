@@ -1,0 +1,49 @@
+version: "3"
+
+volumes:
+    produtosdata:
+    
+networks:
+    frontend:
+    backend:
+    dbhost:
+    
+services:
+        mysql:
+            image: "mysql:5.7"
+            volumes:
+             - produtosdata:/var/lib/mysql
+             - ./MySql_Init:/docker-entrypoint-initdb.d
+            networks:
+             - dbhost
+            environment:
+             - MYSQL_ROOT_PASSWORD=senhaprodutos1257
+             - bind-address=0.0.0.0
+             
+        apiproduto:
+            build:
+                context: ./APIProduto
+                dockerfile: Dockerfile
+            networks:
+                - dbhost
+                - backend
+            ports:
+                - 5000:80
+            environment:
+                - DBHOST=mysql
+            depends_on:
+                - mysql
+                
+        webappproduto:
+            build:
+                context: ./WebAppProduto
+                dockerfile: Dockerfile
+            networks:
+                - backend
+                - frontend
+            ports:
+                - 5001:80
+            environment:
+                - HOST=apiproduto
+            depends_on:
+                - apiproduto
