@@ -40,9 +40,13 @@ namespace APIProduto
       var connection = Configuration["ConnectionStrings:APIProdutoContext"];
 
       //Configura o contexto de banco de dados
+      //services.AddDbContext<APIProdutoContext>(options =>
+      //          options.UseMySql(connection, ServerVersion.AutoDetect(connection), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
       services.AddDbContext<APIProdutoContext>(options =>
-                options.UseMySql(connection, ServerVersion.AutoDetect(connection)));
-      services.AddTransient<IRepository, ProdutoRepository>();
+                options.UseSqlServer(Configuration.GetConnectionString("APIProdutoContext"), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
+      services.AddScoped<APIProdutoContext, APIProdutoContext>();
+      //services.AddDbContextPool<APIProdutoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("APIProdutoContext"), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
+      //services.AddTransient<IRepository, ProdutoRepository>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,7 +66,9 @@ namespace APIProduto
       app.UseAuthorization();
 
       //Chama o método para criar os cadastros iniciais da aplicação
-      DadosIniciaisBD.InserirDadosBD(app);
+      //DadosIniciaisBD.InserirDadosBD(app);
+      //DadosIniciaisBD.InserirDadosBD(app.ApplicationServices.GetRequiredService<IRepository>());
+      //DadosIniciaisBD.InserirDadosBD(app.ApplicationServices.GetRequiredService<APIProdutoContext>());
 
       app.UseEndpoints(endpoints =>
       {

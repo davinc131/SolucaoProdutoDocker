@@ -1,5 +1,6 @@
 ﻿using APIProduto.Data;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -11,12 +12,32 @@ namespace APIProduto.Models
 {
   public class DadosIniciaisBD
   {
+    private readonly IRepository _repository;
     public static void InserirDadosBD(IApplicationBuilder app)
     {
-      InserirDadosBD(app.ApplicationServices.GetRequiredService<APIProdutoContext>());
+      try
+      {
+        InserirDadosBD(app.ApplicationServices.GetRequiredService<APIProdutoContext>());
+      }
+      catch (Exception ex)
+      {
+        throw new Exception("Origem: DadosIniciaisBD - "+ ex.Message);
+      }
     }
 
-    public static void InserirDadosBD(APIProdutoContext context)
+    public static void InserirDadosBD(IRepository pRepository)
+    {
+      try
+      {
+        InserirDadosBD(pRepository);
+      }
+      catch (Exception ex)
+      {
+        throw new Exception("Origem: DadosIniciaisBD - " + ex.Message);
+      }
+    }
+
+    public static void InserirDadosBD([FromServices]APIProdutoContext context)
     {
       context.Database.Migrate();
       if (!context.Produto.Any())

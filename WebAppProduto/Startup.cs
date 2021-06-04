@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAppProduto.Data;
 
 namespace WebAppProduto
 {
@@ -24,6 +25,7 @@ namespace WebAppProduto
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddControllersWithViews();
+      services.AddScoped<IAccessApi, AccessApi>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
