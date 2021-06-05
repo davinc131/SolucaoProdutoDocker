@@ -32,9 +32,17 @@ namespace WebAppProduto.Controllers
     }
 
     // GET: ProdutoController/Details/5
-    public ActionResult Details(int id)
+    public ActionResult Details(Guid id)
     {
-      return View();
+      if (id == null)
+        return NotFound();
+
+      var produto = _context.ConsultarProdutoPorId(id);
+
+      if (produto == null)
+        return NotFound();
+
+      return View(produto);
     }
 
     // GET: ProdutoController/Create
@@ -46,7 +54,7 @@ namespace WebAppProduto.Controllers
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("Id,Nome,Descricao,Valor")] Produto pProduto)
-    {
+     {
       if (ModelState.IsValid)
       {
         _context.CriarProduto(pProduto);
@@ -103,11 +111,11 @@ namespace WebAppProduto.Controllers
     // POST: ProdutoController/Delete/5
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public ActionResult DeleteConfirmed(Guid id)
+    public ActionResult DeleteConfirmed(Guid Id)
     {
       try
       {
-        _context.DeletarProduto(id);
+        _context.DeletarProduto(Id);
         return RedirectToAction(nameof(Index));
       }
       catch
