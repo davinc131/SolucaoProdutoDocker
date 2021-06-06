@@ -13,7 +13,8 @@ namespace WebAppProduto.Data
   {
     public Task<IActionResult> AlterarProduto(Guid pId, Produto pProduto)
     {
-      var url = "https://localhost:44321/api/Produtos/"+pId;
+      //var url = "https://localhost:44321/api/Produtos/"+pId;
+      var url = "http://apiproduto/api/Produtos/" + pId;
       var client = new RestClient(url);
       var request = new RestRequest();
       request.AddJsonBody(pProduto);
@@ -23,7 +24,8 @@ namespace WebAppProduto.Data
 
     public Produto ConsultarProdutoPorId(Guid id)
     {
-      var url = "https://localhost:44321/api/Produtos/"+id;
+      //var url = "https://localhost:44321/api/Produtos/"+id;
+      var url = "http://apiproduto/api/Produtos/" + id;
       var client = new RestClient(url);
       var request = new RestRequest();
       var response = client.Get(request);
@@ -34,7 +36,8 @@ namespace WebAppProduto.Data
 
     public Task<ActionResult<Produto>> CriarProduto(Produto pProduto)
     {
-      var url = "https://localhost:44321/api/Produtos/";
+      //var url = "https://localhost:44321/api/Produtos/";
+      var url = "http://apiproduto/api/Produtos/";
       var client = new RestClient(url);
       var request = new RestRequest();
       request.AddJsonBody(pProduto);
@@ -45,7 +48,8 @@ namespace WebAppProduto.Data
 
     public Task<IActionResult> DeletarProduto(Guid pId)
     {
-      var url = "https://localhost:44321/api/Produtos/"+pId;
+      //var url = "https://localhost:44321/api/Produtos/"+pId;
+      var url = "http://apiproduto/api/Produtos/" + pId;
       var client = new RestClient(url);
       var request = new RestRequest();
       var response = client.Delete(request);
@@ -54,7 +58,8 @@ namespace WebAppProduto.Data
 
     public IEnumerable<Produto> ListarTodosProdutos()
     {
-      var url = "https://localhost:44321/api/Produtos/";
+      //var url = "https://localhost:44321/api/Produtos/";
+      var url = "http://apiproduto/api/Produtos/";
       var client = new RestClient(url);
       var request = new RestRequest();
       var response = client.Get(request);

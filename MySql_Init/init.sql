@@ -1,1 +1,13 @@
---
+CREATE DATABASE produtosdb;
+
+USE produtosdb;
+
+DROP TABLE IF EXISTS `Produto`;
+
+CREATE TABLE `Produto` (
+  `Id` VARCHAR(36),
+  `Nome` VARCHAR(80) NOT NULL,
+  `Descricao` VARCHAR(350) NOT NULL,
+  `Valor` DECIMAL(18,2) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -13,7 +13,6 @@ services:
             image: "mysql:5.7"
             volumes:
              - produtosdata:/var/lib/mysql
-             - ./MySql_Init:/docker-entrypoint-initdb.d
             networks:
              - dbhost
             environment:
@@ -28,7 +27,7 @@ services:
                 - dbhost
                 - backend
             ports:
-                - 5000:80
+                - 5002:80
             environment:
                 - DBHOST=mysql
             depends_on:

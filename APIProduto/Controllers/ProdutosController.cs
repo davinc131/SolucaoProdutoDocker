@@ -19,6 +19,7 @@ namespace APIProduto.Controllers
         public ProdutosController(APIProdutoContext context)
         {
             _context = context;
+            _context.Database.Migrate();
         }
 
         // GET: api/Produtos
@@ -78,6 +79,7 @@ namespace APIProduto.Controllers
         [HttpPost]
         public async Task<ActionResult<Produto>> PostProduto(Produto produto)
         {
+            produto.Id = Guid.NewGuid();
             _context.Produto.Add(produto);
             await _context.SaveChangesAsync();
 

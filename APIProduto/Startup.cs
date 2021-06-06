@@ -40,10 +40,10 @@ namespace APIProduto
       var connection = Configuration["ConnectionStrings:APIProdutoContext"];
 
       //Configura o contexto de banco de dados
-      //services.AddDbContext<APIProdutoContext>(options =>
-      //          options.UseMySql(connection, ServerVersion.AutoDetect(connection), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
       services.AddDbContext<APIProdutoContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("APIProdutoContext"), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
+                options.UseMySql(connection, ServerVersion.AutoDetect(connection), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
+      //services.AddDbContext<APIProdutoContext>(options =>
+      //          options.UseSqlServer(Configuration.GetConnectionString("APIProdutoContext"), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
       services.AddScoped<APIProdutoContext, APIProdutoContext>();
       //services.AddDbContextPool<APIProdutoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("APIProdutoContext"), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
       //services.AddTransient<IRepository, ProdutoRepository>();
@@ -66,7 +66,7 @@ namespace APIProduto
       app.UseAuthorization();
 
       //Chama o método para criar os cadastros iniciais da aplicação
-      //DadosIniciaisBD.InserirDadosBD(app);
+      //var migrate = new DadosIniciaisBD(app.ApplicationServices.GetRequiredService<APIProdutoContext>());
       //DadosIniciaisBD.InserirDadosBD(app.ApplicationServices.GetRequiredService<IRepository>());
       //DadosIniciaisBD.InserirDadosBD(app.ApplicationServices.GetRequiredService<APIProdutoContext>());
 
