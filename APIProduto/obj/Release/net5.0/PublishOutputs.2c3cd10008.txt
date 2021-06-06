@@ -1,4 +1,5 @@
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\APIProduto.exe
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\web.config
@@ -76,6 +77,10 @@ C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.deps.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.runtimeconfig.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\APIProduto.dll
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\APIProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\obj\Release\net5.0\PubTmp\Out\APIProduto.pdb

@@ -35,6 +35,7 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubT
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\web.config
@@ -58,6 +59,10 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubT
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\appsettings.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\PubTmp\Out\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json

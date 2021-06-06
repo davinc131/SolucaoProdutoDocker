@@ -212,3 +212,8 @@ C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\di
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\web.config
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.deps.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\APIProduto.runtimeconfig.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
