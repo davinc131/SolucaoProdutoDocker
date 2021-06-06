@@ -43,12 +43,7 @@ namespace APIProduto
       services.AddDbContext<APIProdutoContext>(options =>
                 options.UseMySql(connection, ServerVersion.AutoDetect(connection), opts => opts.CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)));
       services.AddScoped<APIProdutoContext, APIProdutoContext>();
-      services.AddTransient<IMigrageProduto, DadosIniciaisBD>();
-
-      //Executa Migração
-      var provider = services.BuildServiceProvider();
-      var migrate = provider.GetRequiredService<IMigrageProduto>();
-      migrate.Migrate();
+      services.AddTransient<IMigrateProduto, DadosIniciaisBD>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

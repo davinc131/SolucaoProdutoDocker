@@ -9,7 +9,7 @@ networks:
     dbhost:
     
 services:
-        mysql:
+        db-Server:
             image: "mysql:5.7"
             volumes:
              - produtosdata:/var/lib/mysql
@@ -19,7 +19,7 @@ services:
              - MYSQL_ROOT_PASSWORD=senhaprodutos1257
              - bind-address=0.0.0.0
              
-        apiproduto:
+        back-end-server:
             build:
                 context: ./APIProduto
                 dockerfile: Dockerfile
@@ -29,11 +29,11 @@ services:
             ports:
                 - 5002:80
             environment:
-                - DBHOST=mysql
+                - DBHOST=db-Server
             depends_on:
-                - mysql
+                - db-Server
                 
-        webappproduto:
+        front-end-server:
             build:
                 context: ./WebAppProduto
                 dockerfile: Dockerfile
@@ -43,6 +43,6 @@ services:
             ports:
                 - 5001:80
             environment:
-                - HOST=apiproduto
+                - HOST=back-end-server
             depends_on:
-                - apiproduto
+                - back-end-server

@@ -10,18 +10,11 @@ using System.Threading.Tasks;
 
 namespace APIProduto.Models
 {
-  public class DadosIniciaisBD:IMigrageProduto
+  public class DadosIniciaisBD:IMigrateProduto
   {
-    private readonly APIProdutoContext _context;
-
-    public DadosIniciaisBD(APIProdutoContext context)
+    public void Migrate(APIProdutoContext context)
     {
-      _context = context;
-    }
-
-    public void Migrate()
-    {
-      _context.Database.Migrate();
+      context.Database.Migrate();
     }
   }
 }

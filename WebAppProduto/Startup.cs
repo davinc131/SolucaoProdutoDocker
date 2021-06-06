@@ -57,7 +57,7 @@ namespace WebAppProduto
                   pattern: "{controller=Home}/{action=Index}/{id?}");
       });
 
-      var defaultCulture = new CultureInfo("es-UY");
+      var defaultCulture = new CultureInfo("pt-BR");
       var localizationOptions = new RequestLocalizationOptions
       {
         DefaultRequestCulture = new RequestCulture(defaultCulture),
