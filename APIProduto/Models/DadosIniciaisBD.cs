@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace APIProduto.Models
 {
-  public class DadosIniciaisBD
+  public class DadosIniciaisBD:IMigrageProduto
   {
     private readonly APIProdutoContext _context;
 

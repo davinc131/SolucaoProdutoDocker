@@ -19,7 +19,6 @@ namespace APIProduto.Controllers
         public ProdutosController(APIProdutoContext context)
         {
             _context = context;
-            _context.Database.Migrate();
         }
 
         // GET: api/Produtos

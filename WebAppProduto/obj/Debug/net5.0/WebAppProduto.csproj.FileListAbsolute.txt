@@ -1,3 +1,4 @@
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\web.config
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\web.config
@@ -21,6 +22,10 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\d
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\appsettings.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
@@ -121,7 +126,6 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\zh-Han
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.csproj.AssemblyReference.cache
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.AssemblyInfoInputs.cache
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.AssemblyInfo.cs
@@ -155,8 +159,3 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebApp
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\ref\WebAppProduto.dll
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.pdb
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Debug\net5.0\WebAppProduto.genruntimeconfig.cache
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\web.config
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.Development.json
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\appsettings.json
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.deps.json
-C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Debug\net5.0\dist\dist\dist\dist\dist\dist\dist\dist\WebAppProduto.runtimeconfig.json
