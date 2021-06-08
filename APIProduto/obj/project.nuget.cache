@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "cr2zCftkKKCtUaouKAj6F0PA/KUaYk9J9kW5wBbCfzyGFA31nSccFVKyJnOyI0dSBBqGN2D+2sxo2x8m3Z86TA==",
+  "dgSpecHash": "V6L4TO1DG8NzNuECnqdbtXhMEoh1gbBtHiCFUDVsQUWVGYI8QrG92azQXglBQy00C97c1hRiUjrmFoN7dWJKQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\davin\\source\\repos\\SolucaoProduto\\APIProduto\\APIProduto.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\davin\\.nuget\\packages\\cldrjs\\0.4.1\\cldrjs.0.4.1.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\davin\\.nuget\\packages\\jquery\\1.4.4\\jquery.1.4.4.nupkg.sha512",
+    "C:\\Users\\davin\\.nuget\\packages\\jquery-globalize\\1.0.0\\jquery-globalize.1.0.0.nupkg.sha512",
+    "C:\\Users\\davin\\.nuget\\packages\\jquery.validation\\1.14.0\\jquery.validation.1.14.0.nupkg.sha512",
+    "C:\\Users\\davin\\.nuget\\packages\\jquery.validation.globalize\\1.1.0\\jquery.validation.globalize.1.1.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",

@@ -6,4 +6,4 @@ COPY dist /app
 WORKDIR /app
 EXPOSE 80/tcp
 EXPOSE 445
-ENTRYPOINT ["dotnet", "APIProduto.dll", "--environment=Development"]
+ENTRYPOINT ["dotnet", "APIProduto.dll"]

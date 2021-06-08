@@ -48,7 +48,7 @@ namespace WebAppProduto.Data
 
     public Task<IActionResult> DeletarProduto(Guid pId)
     {
-      //var url = "https://localhost:44321/api/Produtos/"+pId;
+      //var url = "https://localhost:44321/api/Produtos/" + pId;
       var url = "http://back-end-server/api/Produtos/" + pId;
       var client = new RestClient(url);
       var request = new RestRequest();

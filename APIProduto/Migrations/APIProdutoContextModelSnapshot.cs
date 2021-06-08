@@ -30,7 +30,7 @@ namespace APIProduto.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(7,2)");
 
                     b.HasKey("Id");
 

@@ -53,6 +53,7 @@ namespace APIProduto.Controllers
                 return BadRequest();
             }
 
+            //produto.Valor = decimal.Parse(produto.Valor.ToString().Replace(',', '.'));
             _context.Entry(produto).State = EntityState.Modified;
 
             try
@@ -80,6 +81,7 @@ namespace APIProduto.Controllers
         public async Task<ActionResult<Produto>> PostProduto(Produto produto)
         {
             produto.Id = Guid.NewGuid();
+            //produto.Valor = decimal.Parse(produto.Valor.ToString().Replace(',', '.'));
             _context.Produto.Add(produto);
             await _context.SaveChangesAsync();
 

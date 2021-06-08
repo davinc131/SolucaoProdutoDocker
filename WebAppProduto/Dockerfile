@@ -6,5 +6,5 @@ COPY dist /app
 WORKDIR /app
 EXPOSE 80/tcp
 EXPOSE 444
-ENTRYPOINT ["dotnet", "WebAppProduto.dll", "--environment=Development"]
+ENTRYPOINT ["dotnet", "WebAppProduto.dll"]
 

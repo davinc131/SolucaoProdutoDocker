@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using APIProduto.Data;
 using APIProduto.Models;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace APIProduto
 {
@@ -49,6 +51,16 @@ namespace APIProduto
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
+
+      // Definindo a cultura padrão: pt-BR
+      var supportedCultures = new[] { new CultureInfo("pt-BR") };
+      app.UseRequestLocalization(new RequestLocalizationOptions
+      {
+        DefaultRequestCulture = new RequestCulture(culture: "pt-BR", uiCulture: "pt-BR"),
+        SupportedCultures = supportedCultures,
+        SupportedUICultures = supportedCultures
+      });
+
       if (env.IsDevelopment())
       {
         app.UseDeveloperExceptionPage();

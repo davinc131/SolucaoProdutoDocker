@@ -13,7 +13,7 @@ namespace WebAppProduto.Models
     public string Nome { get; set; }
     public string Descricao { get; set; }
     [DisplayFormat(DataFormatString = "{0:N}", ApplyFormatInEditMode = true)]
-    [Column(TypeName = "decimal(18, 2)")]
+    [Column(TypeName = "decimal(7, 2)")]
     public decimal Valor { get; set; }
   }
 }
