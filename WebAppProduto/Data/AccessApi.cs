@@ -13,7 +13,7 @@ namespace WebAppProduto.Data
   {
     public Task<IActionResult> AlterarProduto(Guid pId, Produto pProduto)
     {
-      //var url = "https://localhost:44321/api/Produtos/"+pId;
+      //var url = "https://localhost:44321/api/Produtos/" + pId;
       var url = "http://back-end-server/api/Produtos/" + pId;
       var client = new RestClient(url);
       var request = new RestRequest();
@@ -24,7 +24,7 @@ namespace WebAppProduto.Data
 
     public Produto ConsultarProdutoPorId(Guid id)
     {
-      //var url = "https://localhost:44321/api/Produtos/"+id;
+      //var url = "https://localhost:44321/api/Produtos/" + id;
       var url = "http://back-end-server/api/Produtos/" + id;
       var client = new RestClient(url);
       var request = new RestRequest();

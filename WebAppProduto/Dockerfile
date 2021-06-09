@@ -4,7 +4,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 LABEL version="1.0.0" description="Web App Produto"
 COPY dist /app
 WORKDIR /app
+RUN apt-get clean && apt-get update && apt-get install -y locales
+RUN locale-gen pt_BR.UTF-8
 EXPOSE 80/tcp
 EXPOSE 444
 ENTRYPOINT ["dotnet", "WebAppProduto.dll"]
-

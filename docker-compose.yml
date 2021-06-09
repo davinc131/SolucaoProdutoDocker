@@ -18,6 +18,9 @@ services:
             environment:
              - MYSQL_ROOT_PASSWORD=senhaprodutos1257
              - bind-address=0.0.0.0
+             - LANG=pt_BR.UTF-8  
+             - LANGUAGE=pt_BR  
+             - LC_ALL=pt_BR.UTF-8 
              
         back-end-server:
             build:
@@ -30,6 +33,9 @@ services:
                 - 5002:80
             environment:
                 - DBHOST=db-Server
+                - LANG=pt_BR.UTF-8  
+                - LANGUAGE=pt_BR  
+                - LC_ALL=pt_BR.UTF-8 
             depends_on:
                 - db-Server
                 
@@ -44,5 +50,8 @@ services:
                 - 5001:80
             environment:
                 - HOST=back-end-server
+                - LANG=pt_BR.UTF-8  
+                - LANGUAGE=pt_BR  
+                - LC_ALL=pt_BR.UTF-8 
             depends_on:
                 - back-end-server

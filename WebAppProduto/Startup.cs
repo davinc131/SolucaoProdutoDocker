@@ -57,14 +57,14 @@ namespace WebAppProduto
                   pattern: "{controller=Home}/{action=Index}/{id?}");
       });
 
-      var defaultCulture = new CultureInfo("pt-BR");
-      var localizationOptions = new RequestLocalizationOptions
+      // Definindo a cultura padrão: pt-BR
+      var supportedCultures = new[] { new CultureInfo("pt-BR") };
+      app.UseRequestLocalization(new RequestLocalizationOptions
       {
-        DefaultRequestCulture = new RequestCulture(defaultCulture),
-        SupportedCultures = new List<CultureInfo> { defaultCulture },
-        SupportedUICultures = new List<CultureInfo> { defaultCulture }
-      };
-      app.UseRequestLocalization(localizationOptions);
+        DefaultRequestCulture = new RequestCulture(culture: "pt-BR", uiCulture: "pt-BR"),
+        SupportedCultures = supportedCultures,
+        SupportedUICultures = supportedCultures
+      });
 
     }
   }
