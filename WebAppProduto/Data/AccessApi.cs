@@ -56,6 +56,18 @@ namespace WebAppProduto.Data
       return null;
     }
 
+    public IEnumerable<Produtos> ListarProdutosAPI()
+    {
+      //var url = "https://localhost:44321/api/Produtos/produtonew";
+      var url = "http://back-end-server/api/Produtos/produtonew";
+      var client = new RestClient(url);
+      var request = new RestRequest();
+      var response = client.Get(request);
+      var root = JsonConvert.DeserializeObject<RootAPI>(response.Content);
+      var produtos = root.Produtos;
+      return produtos;
+    }
+
     public IEnumerable<Produto> ListarTodosProdutos()
     {
       //var url = "https://localhost:44321/api/Produtos/";

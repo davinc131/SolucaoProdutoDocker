@@ -142,3 +142,4 @@ C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\AP
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\APIProduto.runtimeconfig.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\appsettings.Development.json
 C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\APIProduto\bin\Release\net5.0\RestSharp.dll

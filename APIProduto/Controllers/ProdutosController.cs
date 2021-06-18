@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APIProduto.Data;
 using APIProduto.Models;
+using RestSharp;
+using Newtonsoft.Json;
 
 namespace APIProduto.Controllers
 {
@@ -26,11 +28,25 @@ namespace APIProduto.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProduto()
         {
+            var url = "https://no2gru7ua3.execute-api.us-east-1.amazonaws.com";
             return await _context.Produto.ToListAsync();
         }
 
-        // GET: api/Produtos/5
-        [HttpGet("{id}")]
+    // GET: api/Produtos
+    [HttpGet]
+    [Route("produtonew")]
+    public async Task<ActionResult<RootAPI>> GetProdutoNew()
+    {
+      var url = "https://no2gru7ua3.execute-api.us-east-1.amazonaws.com";
+      var client = new RestClient(url);
+      var request = new RestRequest();
+      var response = client.Get(request);
+      var produtos = JsonConvert.DeserializeObject<RootAPI>(response.Content);
+      return produtos;
+    }
+
+    // GET: api/Produtos/5
+    [HttpGet("{id}")]
         public async Task<ActionResult<Produto>> GetProduto(Guid id)
         {
             var produto = await _context.Produto.FindAsync(id);

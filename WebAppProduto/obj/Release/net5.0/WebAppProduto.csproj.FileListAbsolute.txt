@@ -125,3 +125,9 @@ C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\appsettings.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\WebAppProduto.deps.json
 C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\WebAppProduto.runtimeconfig.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\dist\web.config
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\dist\appsettings.Development.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\dist\appsettings.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\dist\WebAppProduto.deps.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\bin\Release\net5.0\dist\dist\WebAppProduto.runtimeconfig.json
+C:\Users\davin\source\repos\SolucaoProduto\WebAppProduto\obj\Release\net5.0\Razor\Views\Produto\IndexProdutoApi.cshtml.g.cs

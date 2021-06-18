@@ -25,6 +25,12 @@ namespace WebAppProduto.Controllers
       return View(produtos);
     }
 
+    public ActionResult IndexProdutoApi()
+    {
+      var produtos = _context.ListarProdutosAPI();
+      return View(produtos);
+    }
+
     public ActionResult ProdutoList()
     {
       var produtos = _context.ListarTodosProdutos();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V6L4TO1DG8NzNuECnqdbtXhMEoh1gbBtHiCFUDVsQUWVGYI8QrG92azQXglBQy00C97c1hRiUjrmFoN7dWJKQQ==",
+  "dgSpecHash": "KUIYNr+aj1n/OZK90aJh0s+zvnxZSezxDPOm9Xn0j4gxPigQr3eCzZbamt6L5dQjSZQ2E/R3FVHeAfYE3C7XSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\davin\\source\\repos\\SolucaoProduto\\APIProduto\\APIProduto.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,7 @@
     "C:\\Users\\davin\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0\\pomelo.entityframeworkcore.mysql.5.0.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\pomelo.entityframeworkcore.mysql.design\\1.1.2\\pomelo.entityframeworkcore.mysql.design.1.1.2.nupkg.sha512",
+    "C:\\Users\\davin\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\davin\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

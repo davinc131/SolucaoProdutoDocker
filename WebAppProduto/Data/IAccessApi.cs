@@ -14,5 +14,6 @@ namespace WebAppProduto.Data
     Task<IActionResult> AlterarProduto(Guid pId, Produto pProduto);
     IEnumerable<Produto> ListarTodosProdutos();
     Produto ConsultarProdutoPorId(Guid id);
+    IEnumerable<Produtos> ListarProdutosAPI();
   }
 }
